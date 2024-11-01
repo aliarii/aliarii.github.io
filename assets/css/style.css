@@ -990,6 +990,8 @@ main {
   display: flex;
   width: 100%;
   margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 16px;
 }
 
 .project-list {
