@@ -1,27 +1,6 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
-  /**
-   * colors
-   */
-
-  /* gradient */
 
   --bg-gradient-onyx: linear-gradient(to bottom right,
       hsl(240, 1%, 25%) 3%,
@@ -100,13 +79,6 @@
 }
 
 
-
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
-
 *,
 *::before,
 *::after {
@@ -165,13 +137,6 @@ body {
   background: var(--smoky-black);
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
 
 .sidebar,
 article {
@@ -324,9 +289,7 @@ article.active {
 
 
 
-/*-----------------------------------*\
-  #MAIN
-\*-----------------------------------*/
+
 
 main {
   margin: 15px 12px;
@@ -338,9 +301,7 @@ main {
 
 
 
-/*-----------------------------------*\
-  #SIDEBAR
-\*-----------------------------------*/
+
 
 .sidebar {
   margin-bottom: 15px;
@@ -492,9 +453,7 @@ main {
 
 
 
-/*-----------------------------------*\
-  #NAVBAR
-\*-----------------------------------*/
+
 
 .navbar {
   position: fixed;
@@ -537,9 +496,7 @@ main {
 
 
 
-/*-----------------------------------*\
-  #ABOUT
-\*-----------------------------------*/
+
 
 .about .article-title {
   margin-bottom: 15px;
@@ -842,9 +799,7 @@ main {
 
 
 
-/*-----------------------------------*\
-  #RESUME
-\*-----------------------------------*/
+
 
 .article-title {
   margin-bottom: 30px;
@@ -967,9 +922,7 @@ main {
 
 
 
-/*-----------------------------------*\
-  #PORTFOLIO
-\*-----------------------------------*/
+
 
 .filter-list {
   display: none;
@@ -1032,6 +985,11 @@ main {
 
 .select-item button:hover {
   --eerie-black-2: hsl(240, 2%, 20%);
+}
+.project-video {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .project-list {
@@ -1150,9 +1108,7 @@ main {
 
 
 
-/*-----------------------------------*\
-  #BLOG
-\*-----------------------------------*/
+
 
 .blog-posts {
   margin-bottom: 10px;
@@ -1246,9 +1202,7 @@ main {
 
 
 
-/*-----------------------------------*\
-  #CONTACT
-\*-----------------------------------*/
+
 
 .mapbox {
   position: relative;
@@ -1377,9 +1331,7 @@ textarea.form-input::-webkit-resizer {
 
 
 
-/*-----------------------------------*\
-  #RESPONSIVE
-\*-----------------------------------*/
+
 
 /**
  * responsive larger than 450px screen
@@ -1864,12 +1816,14 @@ textarea.form-input::-webkit-resizer {
 
   /* portfolio and blog grid */
 
-  .project-list,
+  
   .blog-posts-list {
     grid-template-columns: 1fr 1fr;
   }
 
-
+  .project-list {
+    grid-template-columns: repeat(7,1fr);
+  }
 
   /**
    * CONTACT
@@ -1999,7 +1953,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   .project-list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(7, 1fr);
   }
 
 
