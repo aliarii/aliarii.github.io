@@ -1,0 +1,8 @@
+{
+    "name": "Test | @testAtestAB",
+    "description": "Türkçe içerikli eklenti havuzu",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/aliarii/aliarii.github.io/refs/heads/main/test.json"
+    ]
+}
