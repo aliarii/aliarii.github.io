@@ -127,16 +127,16 @@ const projects = [
     }
 ];
 
-const projectList = document.getElementById('project-list');
+const projectList = document.getElementById('project-game-list');
 
 projects.forEach(project => {
     const listItem = document.createElement('li');
-    listItem.className = 'project-item active';
+    listItem.className = 'project-game-item active';
 
     listItem.innerHTML = `
         <a href="${project.link}">
             <figure class="project-img">
-                <div class="project-item-icon-box">
+                <div class="project-game-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                 </div>
                 <img src="${project.image}" loading="lazy">
