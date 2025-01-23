@@ -1,10 +1,19 @@
 const videoProjects = [
     {
+        "title": "Auction Mobile App",
+        "category": "Nodejs, WebSocket, React Native, MongoDB",
+        "source": "./assets/video/actnmbl_demo.mp4",
+        "type": "video/mp4",
+        "url": "",
+        "liveDemo": '</br>'
+    },
+    {
         "title": "Auction App",
-        "category": "Nodejs, Websocket, React, TailwindCss, MongoDB Atlas",
+        "category": "Nodejs, WebSocket, React, TailwindCss, MongoDB",
         "source": "./assets/video/actn_demo.mp4",
         "type": "video/mp4",
         "url": "https://aliarii.github.io/auction-frontend/",
+        "liveDemo": '<a class="project-live-demo" href="${project.url}">Click here to see live demo</a>'
     },
     {
         "title": "Cafe Management System",
@@ -12,6 +21,7 @@ const videoProjects = [
         "source": "./assets/video/mngmnt_demo.mp4",
         "type": "video/mp4",
         "url": "https://aliarii.github.io/adisyon-frontend/",
+        "liveDemo": '<a class="project-live-demo" href="${project.url}">Click here to see live demo</a>'
     },
 
 ]
@@ -25,8 +35,8 @@ videoProjects.forEach(project => {
             <source src="${project.source}" type="${project.type}">
                 Your browser does not support the video tag.
         </video>
-        <a class="project-live-demo" href="${project.url}">Click here to see live demo</a>
-        </br>
+        ${project.liveDemo}
+        
         <h3 class="project-title">${project.title}</h3>
         <p class="project-category">${project.category}</p>
     `;

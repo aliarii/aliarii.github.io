@@ -953,15 +953,18 @@ main {
 .project-video-list {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 15px;
+  gap: 10px;
   margin-bottom: 10px;
 }
 
 .project-video {
   display: flex;
   width: 100%;
+  height: 200px;
+  object-fit: contain;
   margin-bottom: 10px;
   border-radius: 16px;
+  background-color: black;
 }
 
 .project-game-list {
@@ -1076,6 +1079,7 @@ main {
   text-transform: capitalize;
   text-align: center;
   line-height: 1.3;
+  margin-bottom: 10px;
 }
 
 .project-category {
@@ -1743,7 +1747,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .project-video-list {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .project-game-list {
