@@ -5,7 +5,7 @@ const videoProjects = [
         "source": "./assets/video/actnmbl_demo.mp4",
         "type": "video/mp4",
         "url": "",
-        "liveDemo": '</br>'
+        "demoText": '<br/>'
     },
     {
         "title": "Auction App",
@@ -13,7 +13,7 @@ const videoProjects = [
         "source": "./assets/video/actn_demo.mp4",
         "type": "video/mp4",
         "url": "https://aliarii.github.io/auction-frontend/",
-        "liveDemo": '<a class="project-live-demo" href="${project.url}">Click here to see live demo</a>'
+        "demoText": "Click here to see live demo",
     },
     {
         "title": "Cafe Management System",
@@ -21,7 +21,7 @@ const videoProjects = [
         "source": "./assets/video/mngmnt_demo.mp4",
         "type": "video/mp4",
         "url": "https://aliarii.github.io/adisyon-frontend/",
-        "liveDemo": '<a class="project-live-demo" href="${project.url}">Click here to see live demo</a>'
+        "demoText": "Click here to see live demo",
     },
 
 ]
@@ -35,8 +35,7 @@ videoProjects.forEach(project => {
             <source src="${project.source}" type="${project.type}">
                 Your browser does not support the video tag.
         </video>
-        ${project.liveDemo}
-        
+        <a class="project-live-demo" href="${project.url}">${project.demoText}</a>
         <h3 class="project-title">${project.title}</h3>
         <p class="project-category">${project.category}</p>
     `;
