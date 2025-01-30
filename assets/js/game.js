@@ -8,31 +8,36 @@ const projects = [
     {
         "title": "royal cube",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.cubemaster.puzzle",
+        //"link": "https://play.google.com/store/apps/details?id=com.cubemaster.puzzle",
+        "link": "https://app.sensortower.com/overview/com.cubemaster.puzzle",
         "image": "./assets/images/rc.png"
     },
     {
         "title": "royal tiles",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.royal.tiles",
+        // "link": "https://play.google.com/store/apps/details?id=com.royal.tiles",
+        "link": "https://app.sensortower.com/overview/com.royal.tiles",
         "image": "./assets/images/rt.png"
     },
     {
         "title": "dig master - museum builder",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.ap.museum",
+        //"link": "https://play.google.com/store/apps/details?id=com.ap.museum",
+        "link": "https://app.sensortower.com/overview/com.ap.museum",
         "image": "./assets/images/dmmb.png"
     },
     {
         "title": "triple wolf - merge puzzle",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.tw.triplewolf",
+        //"link": "https://play.google.com/store/apps/details?id=com.tw.triplewolf",
+        "link": "https://app.sensortower.com/overview/com.tw.triplewolf",
         "image": "./assets/images/twmp.png"
     },
     {
         "title": "triple 2048 - merge puzzle",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.tb.tripleballs",
+        //"link": "https://play.google.com/store/apps/details?id=com.tb.tripleballs",
+        "link": "https://app.sensortower.com/overview/com.tb.tripleballs",
         "image": "./assets/images/tbmp.png"
     },
     {
@@ -44,7 +49,8 @@ const projects = [
     {
         "title": "throw your dunk",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.ap.throwdunk",
+        //"link": "https://play.google.com/store/apps/details?id=com.ap.throwdunk",
+        "link": "https://app.sensortower.com/overview/com.ap.throwdunk",
         "image": "./assets/images/tyd.png"
     },
     {
@@ -56,7 +62,8 @@ const projects = [
     {
         "title": "boxing clicker hero",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.honeycomb.boxingclicker",
+        //"link": "https://play.google.com/store/apps/details?id=com.honeycomb.boxingclicker",
+        "link": "https://app.sensortower.com/overview/com.honeycomb.boxingclicker",
         "image": "./assets/images/bch.png"
     },
     {
@@ -68,61 +75,69 @@ const projects = [
     {
         "title": "orbital egg factory: idle game",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.orbital.egg",
+        //"link": "https://play.google.com/store/apps/details?id=com.orbital.egg",
+        "link": "https://app.sensortower.com/overview/com.orbital.egg",
         "image": "./assets/images/orfig.png"
     },
     {
         "title": "castle fight",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.honeycomb.castlefight3d",
+        //"link": "https://play.google.com/store/apps/details?id=com.honeycomb.castlefight3d",
+        "link": "https://app.sensortower.com/overview/com.honeycomb.castlefight3d",
         "image": "./assets/images/cf.png"
     },
     {
         "title": "tiny doctor",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.fbg.tinydoctor",
+        //"link": "https://play.google.com/store/apps/details?id=com.fbg.tinydoctor",
+        "link": "https://app.sensortower.com/overview/com.fbg.tinydoctor",
         "image": "./assets/images/td.png"
     },
     {
         "title": "tiny makeup",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.honeycomb.tinymakeupsalon",
+        //"link": "https://play.google.com/store/apps/details?id=com.honeycomb.tinymakeupsalon",
+        "link": "https://app.sensortower.com/overview/com.honeycomb.tinymakeupsalon",
         "image": "./assets/images/tm.png"
     },
     {
         "title": "the jailor",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.honeycomb.thejailor",
+        //"link": "https://play.google.com/store/apps/details?id=com.honeycomb.thejailor",
+        "link": "https://app.sensortower.com/overview/com.honeycomb.thejailor",
         "image": "./assets/images/tj.png"
     },
     {
         "title": "basketball stack",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.honeycomb.basketballstack",
+        //"link": "https://play.google.com/store/apps/details?id=com.honeycomb.basketballstack",
+        "link": "https://app.sensortower.com/overview/com.honeycomb.basketballstack",
         "image": "./assets/images/bs.png"
     },
     {
         "title": "hostel",
         "category": "Mobile Game",
-        "link": "https://app.sensortower.com/overview/com.IceWaffle.Hostel/",
+        "link": "https://app.sensortower.com/overview/com.IceWaffle.Hostel",
         "image": "./assets/images/hstl.png"
     },
     {
         "title": "hair rage",
         "category": "Mobile Game",
-        "link": "https://app.sensortower.com/overview/hair-rage-push-em-all/com.honeycomb.hairrage/",
+        "link": "https://app.sensortower.com/overview/com.honeycomb.hairrage",
         "image": "./assets/images/hr.png"
     },
     {
         "title": "build city",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.kangaroo.buildcity",
+        //"link": "https://play.google.com/store/apps/details?id=com.kangaroo.buildcity",
+        "link": "https://app.sensortower.com/overview/com.kangaroo.buildcity",
         "image": "./assets/images/bc.png"
     },
     {
         "title": "stray cat",
         "category": "Mobile Game",
-        "link": "https://play.google.com/store/apps/details?id=com.fbg.straycat",
+        //"link": "https://play.google.com/store/apps/details?id=com.fbg.straycat",
+        "link": "https://app.sensortower.com/overview/com.fbg.straycat",
         "image": "./assets/images/sc.png"
     }
 ];
